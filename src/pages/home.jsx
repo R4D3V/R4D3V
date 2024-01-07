@@ -1,80 +1,34 @@
 function Home() {
   return (
-    <main className="bg-gray-800 p-3">
-      <div className="bg-opacity-10 bg-white p-8 rounded-md shadow-lg backdrop-blur-md w-full md:w-2/3 lg:w-1/2 md:m-2">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 mb-4">
-          Welcome to My Website.
-        </h1>
-        <p className="text-lg text-gray-600 mb-8">
-          Hi there! We are the new kids on the block and we build awesome
-          websites and mobile apps..
+    <div className="text-center max-w-6xl mx-10">
+      <p className="my-3 text-sm tracking-widest text-indigo-500 uppercase">
+        Fast &amp; SEO friendly
+      </p>
+      <h1 className="my-3 text-3xl font-bold tracking-tight text-gray-800 md:text-5xl dark:text-gray-100">
+        Website Templates and Landing Pages
+      </h1>
+      <div>
+        <p className="max-w-2xl mx-auto my-2 text-base text-gray-500 md:leading-relaxed md:text-xl dark:text-gray-400">
+          Launch your fully-functional Website within hours. SEO friendly
+          Website Templates with High Page Speed. Built with HTML5, React,
+          Next.js, TailwindCSS, Sanity CMS &amp; Eleventy.
         </p>
-        <div className="flex justify-center">
-          <a
-            href="#"
-            className="bg-blue-500 text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300"
-          >
-            Get Started
-          </a>
-        </div>
       </div>
-      <section id="updates" className="sm:p-10 lg:p-20 p-5">
-        <div className="sm:container mx-auto">
-          <h2 className="text-center text-4xl pt-10 sm:pt-0 pb-10 uppercase underline font-extrabold">
-            updates
-          </h2>
-          <div className="sm:grid grid-cols-2">
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Web Design</h3>
-              <p className=" text-gray-500 text-justify">
-                As a dedicated web design professional, I bring a creative and
-                strategic approach to crafting visually stunning and
-                user-centric websites. With a keen eye for aesthetics and a
-                commitment to delivering exceptional user experiences, my goal
-                is to translate your brand identity into a captivating online
-                presence.
-              </p>
-            </div>
-
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Web Development</h3>
-              <p className=" text-gray-500 text-justify">
-                As a seasoned web development professional, I offer
-                comprehensive and tailored services to meet the diverse needs of
-                businesses seeking a strong online presence. With a rich
-                background in both front-end and back-end technologies, I
-                specialize in crafting visually appealing and highly functional
-                websites and web applications.
-              </p>
-            </div>
-
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Issue Fixing</h3>
-              <p className=" text-gray-500 text-justify">
-                Offering dedicated issue-fixing services, I bring a meticulous
-                and solutions-oriented approach to address and resolve a wide
-                array of challenges that may arise in your digital landscape.
-                With a focus on efficiency and precision, I specialize in
-                diagnosing and remedying issues across web applications,
-                websites, and software systems.
-              </p>
-            </div>
-
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Server Management</h3>
-              <p className=" text-gray-500 text-justify">
-                Specializing in server management services, I offer a
-                comprehensive solution to ensure the seamless and secure
-                operation of your digital infrastructure. With expertise in
-                configuring, monitoring, and optimizing server environments, I
-                am committed to enhancing the reliability and performance of
-                your servers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+      <div className="flex flex-col items-center justify-center gap-5 mt-6 md:flex-row">
+        <a
+          className="inline-block w-auto min-w-[250px] px-6 py-4 text-white transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-r from-indigo-600 to-indigo-500 hover:bg-gradient-to-b dark:shadow-indigo-900 shadow-indigo-200 hover:shadow-2xl hover:shadow-indigo-400 hover:-translate-y-px"
+          href=""
+        >
+          Browse All Templates
+        </a>
+        <a
+          className="inline-block w-auto min-w-[250px] px-6 py-4 text-white transition-all bg-gray-700 dark:bg-white dark:text-gray-800 rounded-md shadow-xl sm:w-auto hover:bg-gray-900 hover:text-white shadow-slate-300 dark:shadow-slate-700 hover:shadow-2xl hover:shadow-slate-400 hover:-translate-y-px"
+          href=""
+        >
+          Component Library
+        </a>
+      </div>
+    </div>
   );
 }
 

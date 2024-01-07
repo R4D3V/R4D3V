@@ -1,64 +1,38 @@
-import reactSvg from "../assets/react.svg";
+//import reactSvg from "../assets/react.svg";
 
 function Header() {
   return (
-    <nav className="">
-      <div className="container mx-auto">
-        <div className="lg:flex lg:justify-between items-center">
-          {/* Logo on the Left for Large Screens */}
-          <div className="hidden lg:flex items-center">
-            <img
-              src={reactSvg}
-              alt="Contact 1"
-              className="w-500 h-500 object-cover mb-4 rounded-full"
-            />
-          </div>
-
-          {/* Navigation for Large Screens (Fixed at Top) */}
-          <div className="hidden lg:flex lg:items-center">
-            <a href="#" className="mr-4 hover:text-gray-300">
-              Home
-            </a>
-            <a href="#" className="mr-4 hover:text-gray-300">
+    <nav className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+      <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023{" "}
+          <a href="https://flowbite.com/" className="hover:underline">
+            Flowbite™
+          </a>
+          . All Rights Reserved.
+        </span>
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">
               About
             </a>
-            <a href="#" className="mr-4 hover:text-gray-300">
-              Services
+          </li>
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">
+              Privacy Policy
             </a>
-            <a href="#" className="hover:text-gray-300">
+          </li>
+          <li>
+            <a href="#" className="hover:underline me-4 md:me-6">
+              Licensing
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline">
               Contact
             </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Logo Hidden on Small Screens */}
-      <div className="lg:hidden  md:hidden text-center">
-        <a href="#" className="text-lg font-bold sm:hidden p-0">
-          <img
-            src={reactSvg}
-            alt="Contact 1"
-            className="w-500 h-500 object-cover mb-4 rounded-full"
-          />
-        </a>
-      </div>
-
-      {/* Navigation for Small Screens (Fixed at Bottom) */}
-      <div className="lg:hidden fixed bottom-0 left-0 w-full bg-red-700 p-4">
-        <div className="flex justify-center">
-          <a href="#" className="mr-4 hover:text-gray-300">
-            Home
-          </a>
-          <a href="#" className="mr-4 hover:text-gray-300">
-            About
-          </a>
-          <a href="#" className="mr-4 hover:text-gray-300">
-            Services
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Contact
-          </a>
-        </div>
+          </li>
+        </ul>
       </div>
     </nav>
   );

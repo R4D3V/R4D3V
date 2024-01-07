@@ -2,147 +2,41 @@ import gta from "../assets/images/gta.png";
 
 function Services() {
   return (
-    <mains
+    <main
       style={{
         backgroundImage: `url(${gta})`,
+        backgroundSize: `cover`,
+        width: `100%`,
       }}
-      className="p-3 bg-cover bg-center absolute"
+      className="p-3 bg-cover bg-center absolute overflow-auto"
     >
-      <section id="services" className="sm:p-10 lg:p-20 p-5">
-        <div className="sm:container mx-auto">
-          <h2 className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">
-            Services
-          </h2>
-          <div className="sm:grid grid-cols-2">
-            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Web Design</h3>
-              <p className="leading-10 text-gray-500 text-justify">
-                As a dedicated web design professional, I bring a creative and
-                strategic approach to crafting visually stunning and
-                user-centric websites. With a keen eye for aesthetics and a
-                commitment to delivering exceptional user experiences, my goal
-                is to translate your brand identity into a captivating online
-                presence.
+      <div className="flex h-screen items-center justify-center">
+        <div className="mx-auto grid max-w-screen-lg grid-cols-1 flex-col items-stretch justify-center gap-4 p-8 text-slate-950/75 sm:grid-cols-3">
+          <article className="relative rounded-lg bg-cyan-400 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-cyan-400 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
+            <div className="relative z-10 cursor-pointer">
+              <h1 className="font-bold">Tailwind CSS</h1>
+              <p className="mt-2">
+                Learn the basics of the most popular CSS framework
               </p>
             </div>
-
-            <div className="sm:p-10 p-5 sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Web Development</h3>
-              <p className="leading-10 text-gray-500 text-justify">
-                As a seasoned web development professional, I offer
-                comprehensive and tailored services to meet the diverse needs of
-                businesses seeking a strong online presence. With a rich
-                background in both front-end and back-end technologies, I
-                specialize in crafting visually appealing and highly functional
-                websites and web applications.
+          </article>
+          <article className="relative rounded-lg bg-orange-300 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-orange-300 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
+            <div className="relative z-10 cursor-pointer">
+              <h1 className="font-bold">FilamentPHP basics</h1>
+              <p className="mt-2">Create Admin Panels with ease</p>
+            </div>
+          </article>
+          <article className="relative rounded-lg bg-red-400 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-red-400 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
+            <div className="relative z-10 cursor-pointer">
+              <h1 className="font-bold">Laravel Folio</h1>
+              <p className="mt-2">
+                Create a blog using file based routing powered by Laravel Folio
               </p>
             </div>
-
-            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Issue Fixing</h3>
-              <p className="leading-10 text-gray-500 text-justify">
-                Offering dedicated issue-fixing services, I bring a meticulous
-                and solutions-oriented approach to address and resolve a wide
-                array of challenges that may arise in your digital landscape.
-                With a focus on efficiency and precision, I specialize in
-                diagnosing and remedying issues across web applications,
-                websites, and software systems.
-              </p>
-            </div>
-
-            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
-              <h3 className="text-xl mb-5 font-bold">Server Management</h3>
-              <p className="leading-10 text-gray-500 text-justify">
-                Specializing in server management services, I offer a
-                comprehensive solution to ensure the seamless and secure
-                operation of your digital infrastructure. With expertise in
-                configuring, monitoring, and optimizing server environments, I
-                am committed to enhancing the reliability and performance of
-                your servers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-extrabold mb-8">SERVICES WE PROVIDE</h2>
-        <p className="text-lg leading-relaxed mb-8">
-          We are working with both individuals and businesses from all over the
-          globe to create awesome websites and applications.
-        </p>
-      </div>
-      <div>
-        <h1>BRANDING</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam
-          nonummy nibh.
-        </p>
-      </div>
-      <div>
-        <h1>DESIGN</h1>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem
-          ipsum
-        </p>
-      </div>
-      <div>
-        <h1>MEET OUR BEAUTIFUL TEAM</h1>
-        <p>
-          We are a small team of designers and developers, who help brands with
-          big ideas.
-        </p>
-        <div>
-          <div>
-            <h1>ray</h1>
-            <p>
-              Duis aute irure dolor in in voluptate velit esse cillum dolore
-              fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
-            </p>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              icon
-            </a>
-          </div>
-          <div>
-            <h1>ray</h1>
-            <p>
-              Duis aute irure dolor in in voluptate velit esse cillum dolore
-              fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
-            </p>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              icon
-            </a>
-          </div>
-          <div>
-            <h1>WE GOT SKILLS!</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. 90%
-              WEB DESIGN
-            </p>
-            <h2>HERE IS THE PORTFOLIO</h2>
-            <p>
-              <b>
-                <u>projects</u>
-              </b>
-            </p>
-          </div>
+          </article>
         </div>
       </div>
-      <div>
-        <h1>WHAT PEOPLE SAY ABOUT US</h1>
-        <p>
-          “Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
-          Maecenas fringilla urna eu nisl scelerisque.” CHANEL IMAN
-        </p>
-        <p>
-          “Vivamus luctus luctus luctus urna sed urna ultricies ac tempor dui
-          sagittis. In condimentum facilisis porta ADRIANA LIMA Founder Of
-          Instagram ANNE HATHAWAY “Vivamus luctus urna sed urna luctus luctus
-          ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
-          ANNE HATHAWAY Lead Designer At Behance
-        </p>
-      </div>
-    </mains>
+    </main>
   );
 }
 

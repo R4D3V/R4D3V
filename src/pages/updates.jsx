@@ -1,6 +1,6 @@
 function Updates() {
   return (
-    <section className="p-3 m-2">
+    <section className="p-3 m-2 flex flex-wrap justify-center">
       <div className="sm:container mx-auto">
         <div className="sm:grid grid-cols-2">
           <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
@@ -13,8 +13,8 @@ function Updates() {
               your brand identity into a captivating online presence.
             </p>
             <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-  More info
-</button>
+              More info
+            </button>
           </div>
 
           <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
@@ -28,8 +28,8 @@ function Updates() {
               applications.
             </p>
             <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-  More info
-</button>
+              More info
+            </button>
           </div>
 
           <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
@@ -43,8 +43,8 @@ function Updates() {
               systems.
             </p>
             <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-  More info
-</button>
+              More info
+            </button>
           </div>
 
           <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
@@ -57,8 +57,8 @@ function Updates() {
               enhancing the reliability and performance of your servers.
             </p>
             <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-  More info
-</button>
+              More info
+            </button>
           </div>
         </div>
       </div>
