@@ -1,15 +1,8 @@
-import gta from "../assets/images/gta.png";
+//import gta from "../assets/images/gta.png";
 
 function Services() {
   return (
-    <main
-      style={{
-        backgroundImage: `url(${gta})`,
-        backgroundSize: `cover`,
-        width: `100%`,
-      }}
-      className="p-3 bg-cover bg-center absolute overflow-auto"
-    >
+    <main className="p-3 bg-cover bg-center absolute overflow-auto">
       <div className="flex h-screen items-center justify-center">
         <div className="mx-auto grid max-w-screen-lg grid-cols-1 flex-col items-stretch justify-center gap-4 p-8 text-slate-950/75 sm:grid-cols-3">
           <article className="relative rounded-lg bg-cyan-400 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-cyan-400 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">

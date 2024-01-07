@@ -10,7 +10,7 @@ function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0  sm:flex sm:flex-wrap sm:justify-center sm:text-center">
+        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 ">
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
               <Link to="/updates">Updates</Link>
@@ -24,6 +24,11 @@ function Footer() {
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">
               <Link to="/about">About</Link>
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hover:underline">
+              <Link to="/services">Services</Link>
             </a>
           </li>
           <li>
