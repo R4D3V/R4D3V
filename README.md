@@ -15,14 +15,14 @@
   <samp>
     <a href="https://www.google.com/search?q=r4d3v">「 Google Me 」</a>
     <br>
-    「 I am a frontend web application developer from <b>Bangladesh</b> 」
+    「 I am a frontend web application developer from <b>Uganda</b> 」
     <br>
     <br>
   </samp>
 </p>
 
 <p align="center">
- <a href="#" target="blank">
+ <a href="https://r4d3v.vercel.app/" target="blank">
   <img src="https://img.shields.io/badge/Website-DC143C?style=for-the-badge&logo=medium&logoColor=white" alt="alsiam" />
  </a>
  
