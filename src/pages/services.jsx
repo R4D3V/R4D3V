@@ -1,14 +1,20 @@
+import gta from "../assets/images/gta.png";
+
 function Services() {
   return (
-    <main className="p-3">
-      
+    <mains
+      style={{
+        backgroundImage: `url(${gta})`,
+      }}
+      className="p-3 bg-cover bg-center absolute"
+    >
       <section id="services" className="sm:p-10 lg:p-20 p-5">
         <div className="sm:container mx-auto">
           <h2 className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">
             Services
           </h2>
           <div className="sm:grid grid-cols-2">
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
+            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
               <h3 className="text-xl mb-5 font-bold">Web Design</h3>
               <p className="leading-10 text-gray-500 text-justify">
                 As a dedicated web design professional, I bring a creative and
@@ -20,7 +26,7 @@ function Services() {
               </p>
             </div>
 
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
+            <div className="sm:p-10 p-5 sm:me-5 mb-10 rounded-md hover:shadow-md">
               <h3 className="text-xl mb-5 font-bold">Web Development</h3>
               <p className="leading-10 text-gray-500 text-justify">
                 As a seasoned web development professional, I offer
@@ -32,7 +38,7 @@ function Services() {
               </p>
             </div>
 
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
+            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
               <h3 className="text-xl mb-5 font-bold">Issue Fixing</h3>
               <p className="leading-10 text-gray-500 text-justify">
                 Offering dedicated issue-fixing services, I bring a meticulous
@@ -44,7 +50,7 @@ function Services() {
               </p>
             </div>
 
-            <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
+            <div className="sm:p-10 p-5  sm:me-5 mb-10 rounded-md hover:shadow-md">
               <h3 className="text-xl mb-5 font-bold">Server Management</h3>
               <p className="leading-10 text-gray-500 text-justify">
                 Specializing in server management services, I offer a
@@ -136,7 +142,7 @@ function Services() {
           ANNE HATHAWAY Lead Designer At Behance
         </p>
       </div>
-    </main>
+    </mains>
   );
 }
 

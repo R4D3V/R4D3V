@@ -1,33 +1,66 @@
-import { Link } from "react-router-dom";
+import reactSvg from "../assets/react.svg";
 
 function Header() {
   return (
-    <header className="font-bold uppercase p-2 flex-wrap sticky top-0 shadow-lg z-50 sm:text-2 ">
-      <nav className="p-2">
-        <div className="container mx-auto flex justify-center items-center">
-          <div className="mr-auto">
-            <Link to="/">
-            LOGO
-            </Link>
+    <nav className="">
+      <div className="container mx-auto">
+        <div className="lg:flex lg:justify-between items-center">
+          {/* Logo on the Left for Large Screens */}
+          <div className="hidden lg:flex items-center">
+            <img
+              src={reactSvg}
+              alt="Contact 1"
+              className="w-500 h-500 object-cover mb-4 rounded-full"
+            />
           </div>
 
-          <div className="flex space-x-4 sm:text-black">
-            <a href="#" className=" ">
-              <Link to="/Updates">updates</Link>
+          {/* Navigation for Large Screens (Fixed at Top) */}
+          <div className="hidden lg:flex lg:items-center">
+            <a href="#" className="mr-4 hover:text-gray-300">
+              Home
             </a>
-            <a href="#" className=" ">
-              <Link to="/Services">services</Link>
+            <a href="#" className="mr-4 hover:text-gray-300">
+              About
             </a>
-            <a href="#" className=" ">
-              <Link to="/About">about</Link>
+            <a href="#" className="mr-4 hover:text-gray-300">
+              Services
             </a>
-            <a href="#" className=" ">
-              <Link to="/Contact">contact</Link>
+            <a href="#" className="hover:text-gray-300">
+              Contact
             </a>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+
+      {/* Logo Hidden on Small Screens */}
+      <div className="lg:hidden  md:hidden text-center">
+        <a href="#" className="text-lg font-bold sm:hidden p-0">
+          <img
+            src={reactSvg}
+            alt="Contact 1"
+            className="w-500 h-500 object-cover mb-4 rounded-full"
+          />
+        </a>
+      </div>
+
+      {/* Navigation for Small Screens (Fixed at Bottom) */}
+      <div className="lg:hidden fixed bottom-0 left-0 w-full bg-red-700 p-4">
+        <div className="flex justify-center">
+          <a href="#" className="mr-4 hover:text-gray-300">
+            Home
+          </a>
+          <a href="#" className="mr-4 hover:text-gray-300">
+            About
+          </a>
+          <a href="#" className="mr-4 hover:text-gray-300">
+            Services
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 }
 
