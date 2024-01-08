@@ -122,10 +122,10 @@ export default function NavbarActionButtonPreview() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:text-indigo-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  to="/services"
+                  to="/products"
                   onClick={() => setIsToggleOpen(false)}
                 >
-                  <span>SERVICES</span>
+                  <span>HOT DEALS</span>
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
@@ -133,13 +133,14 @@ export default function NavbarActionButtonPreview() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:text-indigo-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  to="/products"
+                  to="/services"
                   onClick={() => setIsToggleOpen(false)}
                 >
-                  <span>DEALS</span>
+                  <span>SERVICES</span>
                 </Link>
               </li>
-              <li role="none" className="flex items-stretch">
+
+              {/* <li role="none" className="flex items-stretch">
                 <Link
                   role="menuitem"
                   aria-haspopup="false"
@@ -149,7 +150,7 @@ export default function NavbarActionButtonPreview() {
                 >
                   <span>CONTACT</span>
                 </Link>
-              </li>
+              </li> */}
 
               <li role="none" className="flex items-stretch">
                 <Link
@@ -159,7 +160,7 @@ export default function NavbarActionButtonPreview() {
                   to="/about"
                   onClick={() => setIsToggleOpen(false)}
                 >
-                  <span>ABOUT</span>
+                  <span>ABOUT US</span>
                 </Link>
               </li>
             </ul>
