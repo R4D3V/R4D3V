@@ -3,7 +3,7 @@
 
 function About() {
   return (
-    <div className="container mx-auto py-8 mt-[88px]">
+    <div className="container mx-auto p-5 mt-[88px]">
       <div>
         <h2 className="text-4xl font-bold mb-4 text-center uppercase font-serif underline shadow-xl rounded">
           About Us
