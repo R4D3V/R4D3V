@@ -136,7 +136,7 @@ export default function NavbarActionButtonPreview() {
                   to="/products"
                   onClick={() => setIsToggleOpen(false)}
                 >
-                  <span>SHOP</span>
+                  <span>DEALS</span>
                 </Link>
               </li>
               <li role="none" className="flex items-stretch">
