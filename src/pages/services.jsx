@@ -1,23 +1,53 @@
 function Services() {
   return (
-    <div className="bg-gray-100 mt-[88px] flex items-center justify-center">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-lg font-semibold text-gray-800">Users</h2>
-          <p className="text-3xl font-bold text-indigo-500 mt-2">1,234</p>
-        </div>
+    <section className="mt-[88px] container m-auto  px-4">
+      <div className="container px-6 py-10 mx-auto">
+        <h1 className="text-2xl font-semibold text-center  capitalize lg:text-3xl">
+          Services
+        </h1>
 
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-lg font-semibold text-gray-800">Revenue</h2>
-          <p className="text-3xl font-bold text-green-500 mt-2">$50,000</p>
-        </div>
+        <p className="mt-4 text-center uppercase">
+          Some of the{" "}
+          <u>
+            <b>services</b>
+          </u>{" "}
+          we acan offer to you.
+        </p>
 
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-lg font-semibold text-gray-800">Orders</h2>
-          <p className="text-3xl font-bold text-blue-500 mt-2">500</p>
+        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+          <div className="overflow-hidden shadow-2xl bg-cover rounded-lg cursor-pointer h-96 group">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm  group-hover:opacity-100">
+              <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                Best website collections
+              </h2>
+              <p className="mt-2 text-lg tracking-wider  uppercase ">
+                Website Developement
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden shadow-2xl bg-cover rounded-lg cursor-pointer h-96 group">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm group-hover:opacity-100">
+              <h2 className="mt-4 text-xl font-semibold capitalize">
+                Block of Ui kit collections
+              </h2>
+              <p className="mt-2 text-lg tracking-wider  uppercase ">
+                Ui Design
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden shadow-2xl bg-cover rounded-lg cursor-pointer h-96 group">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm  group-hover:opacity-100">
+              <h2 className="mt-4 text-xl font-semibold e capitalize">
+                Ton’s of mobile mockup
+              </h2>
+              <p className="mt-2 text-lg tracking-wider uppercase ">Mockups</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
