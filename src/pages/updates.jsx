@@ -1,69 +1,26 @@
 function Updates() {
-  return (
-    <section className="p-3 m-2 flex flex-wrap justify-center mt-[88px]">
-      <div className="sm:container mx-auto">
-        <div className="sm:grid grid-cols-2">
-          <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-            <h3 className="text-xl mb-5 font-bold">Web Design</h3>
-            <p className=" text-gray-500 text-justify">
-              As a dedicated web design professional, I bring a creative and
-              strategic approach to crafting visually stunning and user-centric
-              websites. With a keen eye for aesthetics and a commitment to
-              delivering exceptional user experiences, my goal is to translate
-              your brand identity into a captivating online presence.
-            </p>
-            <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              More info
-            </button>
-          </div>
+  const articles = [
+    {
+      id: 1,
+      title: "Lorem Ipsum Dolor Sit Amet",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      date: "January 15, 2022",
+    },
+  ];
+  <div className="bg-gray-100">
+    <div className="container mx-auto py-8">
+      <h2 className="text-4xl font-bold mb-8">Latest Articles</h2>
 
-          <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-            <h3 className="text-xl mb-5 font-bold">Web Development</h3>
-            <p className=" text-gray-500 text-justify">
-              As a seasoned web development professional, I offer comprehensive
-              and tailored services to meet the diverse needs of businesses
-              seeking a strong online presence. With a rich background in both
-              front-end and back-end technologies, I specialize in crafting
-              visually appealing and highly functional websites and web
-              applications.
-            </p>
-            <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              More info
-            </button>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {articles.map((article) => (
+          <div key={article.id} className="bg-white p-6 rounded-md shadow-md">
+            <h3 className="text-xl font-bold mb-4">{article.title}</h3>
+            <p className="text-gray-600 mb-4">{article.content}</p>
+            <p className="text-gray-400 text-sm">{article.date}</p>
           </div>
-
-          <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-            <h3 className="text-xl mb-5 font-bold">Issue Fixing</h3>
-            <p className=" text-gray-500 text-justify">
-              Offering dedicated issue-fixing services, I bring a meticulous and
-              solutions-oriented approach to address and resolve a wide array of
-              challenges that may arise in your digital landscape. With a focus
-              on efficiency and precision, I specialize in diagnosing and
-              remedying issues across web applications, websites, and software
-              systems.
-            </p>
-            <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              More info
-            </button>
-          </div>
-
-          <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">
-            <h3 className="text-xl mb-5 font-bold">Server Management</h3>
-            <p className=" text-gray-500 text-justify">
-              Specializing in server management services, I offer a
-              comprehensive solution to ensure the seamless and secure operation
-              of your digital infrastructure. With expertise in configuring,
-              monitoring, and optimizing server environments, I am committed to
-              enhancing the reliability and performance of your servers.
-            </p>
-            <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
-              More info
-            </button>
-          </div>
-        </div>
+        ))}
       </div>
-    </section>
-  );
+    </div>
+  </div>;
 }
-
 export default Updates;
