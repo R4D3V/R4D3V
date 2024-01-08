@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <nav className=" p-4 flex justify-around">
+    <nav className=" p-4 flex justify-around mt-[88px]">
       <div className="flex items-center">
         <Link to="/" className="">
           <img

@@ -58,15 +58,13 @@ export default function NavbarActionButtonPreview() {
 
   return (
     <>
-      {/*<!-- Component: Navbar with CTA --> */}
-      <header className="border-b-1 relative z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+      <header className="border-b-1 z-20 w-full border-b border-slate-200 bg-white/90 shadow-lg shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden fixed top-0">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
             role="navigation"
           >
-            {/*      <!-- Brand logo --> */}
             <a
               id="WindUI"
               aria-label="WindUI logo"
@@ -74,14 +72,15 @@ export default function NavbarActionButtonPreview() {
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
               href="javascript:void(0)"
             >
-              <img
-                src={reactSvg}
-                alt="home"
-                className=" object-cover rounded-full"
-              />
-              Brand
+              <Link to="/">
+                <img
+                  src={reactSvg}
+                  alt="Contact 1"
+                  className=" object-cover rounded-full"
+                />
+              </Link>
+              {/* Brand */}
             </a>
-            {/*      <!-- Mobile trigger --> */}
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden
               ${
@@ -109,7 +108,6 @@ export default function NavbarActionButtonPreview() {
                 ></span>
               </div>
             </button>
-            {/*      <!-- Navigation links --> */}
             <ul
               role="menubar"
               aria-label="Select page"
@@ -168,14 +166,15 @@ export default function NavbarActionButtonPreview() {
             <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
               <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-indigo-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-indigo-200 transition duration-300 hover:bg-indigo-600 hover:shadow-sm hover:shadow-indigo-200 focus:bg-indigo-700 focus:shadow-sm focus:shadow-indigo-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-indigo-300 disabled:bg-indigo-300 disabled:shadow-none">
                 <span>
-                  <Link to="/Updates">UPDATES</Link>
+                  <Link to="/Updates" onClick={() => setIsToggleOpen(false)}>
+                    UPDATES
+                  </Link>
                 </span>
               </button>
             </div>
           </nav>
         </div>
       </header>
-      {/*<!-- End Navbar with CTA --> */}
     </>
   );
 }

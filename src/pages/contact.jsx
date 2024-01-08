@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="relative flex flex-col text-gray-700 shadow-md bg-clip-border rounded-xl w-96 sm:flex sm:justify-center">
+    <div className="relative flex flex-col text-gray-700 shadow-md bg-clip-border rounded-xl w-96 sm:flex sm:justify-center  mt-[88px]">
       <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-80">
         <img
           src="https://docs.material-tailwind.com/img/team-3.jpg"

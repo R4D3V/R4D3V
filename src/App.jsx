@@ -7,7 +7,7 @@ import Contact from "./pages/contact";
 import Services from "./pages/services";
 import Updates from "./pages/updates";
 import Products from "./pages/products";
-import Testing from "./pages/testing";
+import Login from "./pages/login";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/updates" element={<Updates />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/testing" element={<Testing />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </>

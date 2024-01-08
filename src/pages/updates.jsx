@@ -1,6 +1,6 @@
 function Updates() {
   return (
-    <section className="p-3 m-2 flex flex-wrap justify-center">
+    <section className="p-3 m-2 flex flex-wrap justify-center mt-[88px]">
       <div className="sm:container mx-auto">
         <div className="sm:grid grid-cols-2">
           <div className="sm:p-10 p-5 bg-gray-50 sm:me-5 mb-10 rounded-md hover:shadow-md">

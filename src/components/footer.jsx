@@ -252,12 +252,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        {/*      <!-- Sub Footer --> */}
+
         <div className="py-4 text-sm border-t ">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <div className="col-span-2 md:col-span-4 lg:col-span-6">
-                Copyright 2022 Brand
+                Copyright {new Date().getFullYear()}
               </div>
               <nav
                 aria-labelledby="footer-social-links-dark"

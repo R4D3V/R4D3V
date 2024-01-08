@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="text-center max-w-6xl mx-10">
+    <div className="text-center max-w-6xl mx-10  mt-[88px]">
       <p className="my-3 text-sm tracking-widest text-indigo-500 uppercase">
         Fast &amp; SEO friendly
       </p>
