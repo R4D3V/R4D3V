@@ -27,12 +27,12 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline me-4 md:me-6">
               <Link to="/services">Services</Link>
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
+            <a href="#" className="hover:underline me-4 md:me-6">
               <Link to="/contact">Contact</Link>
             </a>
           </li>
