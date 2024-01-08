@@ -1,51 +1,33 @@
-import reactSvg from "../assets/react.svg";
-import { Link } from "react-router-dom";
+// import reactSvg from "../assets/react.svg";
+// import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <nav className=" p-4 flex justify-around mt-[88px]">
-      <div className="flex items-center">
-        <Link to="/" className="">
+    <div className="container mx-auto py-8 mt-[88px]">
+      <h2 className="text-4xl font-bold mb-4">About Us</h2>
+
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/2 mb-4 md:mb-0">
           <img
-            src={reactSvg}
-            alt="Contact 1"
-            className="w-500 h-500 object-cover mb-4 rounded-full"
+            src="https://placekitten.com/800/600" // Replace with your image URL
+            alt="About Us"
+            className="w-full h-auto rounded-md"
           />
-        </Link>
+        </div>
+        <div className="md:w-1/2 md:pl-8">
+          <p className="text-lg mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
+            justo eu ex condimentum fermentum vel id eros. Vivamus vehicula
+            fringilla turpis, vel ornare tortor elementum vel.
+          </p>
+          <p className="text-lg">
+            Nullam vel nunc quis justo facilisis facilisis ac vel quam. Quisque
+            eu rhoncus lacus. Phasellus tristique mi nec eros tincidunt, ut
+            vestibulum leo blandit.
+          </p>
+        </div>
       </div>
-      <div className="md:flex flex justify-evenly sm:flex sm:justify-evenly">
-        <Link
-          to="/Updates"
-          className=" hover:text-gray-300 py-2 md:py-0 md:ml-4 sm:font-bold sm:text-1 p-2 "
-        >
-          UPDATES
-        </Link>
-        <Link
-          to="/shop"
-          className=" hover:text-gray-300 py-2 md:py-0 md:ml-4 sm:font-bold sm:text-1 p-2 "
-        >
-          SHOP
-        </Link>
-        <Link
-          to="/services"
-          className=" hover:text-gray-300 py-2 md:py-0 md:ml-4 sm:font-bold sm:text-1 p-2 "
-        >
-          SERVICES
-        </Link>
-        <Link
-          to="/about"
-          className=" hover:text-gray-300 py-2 md:py-0 md:ml-4 sm:font-bold sm:text-1 p-2 "
-        >
-          ABOUT
-        </Link>
-        <Link
-          to="/contact"
-          className=" hover:text-gray-300 py-2 md:py-0 md:ml-4 sm:font-bold sm:text-1 p-2 "
-        >
-          CONTACT
-        </Link>
-      </div>
-    </nav>
+    </div>
   );
 }
 export default About;
