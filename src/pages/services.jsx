@@ -1,33 +1,23 @@
 function Services() {
   return (
-    <main className="p-3 bg-cover bg-center absolute overflow-auto mt-[88px]">
-      <div className="flex h-screen items-center justify-center">
-        <div className="mx-auto grid max-w-screen-lg grid-cols-1 flex-col items-stretch justify-center gap-4 p-8 text-slate-950/75 sm:grid-cols-3">
-          <article className="relative rounded-lg bg-cyan-400 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-cyan-400 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
-            <div className="relative z-10 cursor-pointer">
-              <h1 className="font-bold">Tailwind CSS</h1>
-              <p className="mt-2">
-                Learn the basics of the most popular CSS framework
-              </p>
-            </div>
-          </article>
-          <article className="relative rounded-lg bg-orange-300 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-orange-300 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
-            <div className="relative z-10 cursor-pointer">
-              <h1 className="font-bold">FilamentPHP basics</h1>
-              <p className="mt-2">Create Admin Panels with ease</p>
-            </div>
-          </article>
-          <article className="relative rounded-lg bg-red-400 p-4 after:absolute after:inset-0 after:rounded-lg after:bg-red-400 after:transition-all after:duration-300 after:content-['\00a0'] after:hover:rotate-1 after:hover:scale-105">
-            <div className="relative z-10 cursor-pointer">
-              <h1 className="font-bold">Laravel Folio</h1>
-              <p className="mt-2">
-                Create a blog using file based routing powered by Laravel Folio
-              </p>
-            </div>
-          </article>
+    <div className="bg-gray-100 mt-[88px] flex items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-lg font-semibold text-gray-800">Users</h2>
+          <p className="text-3xl font-bold text-indigo-500 mt-2">1,234</p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-lg font-semibold text-gray-800">Revenue</h2>
+          <p className="text-3xl font-bold text-green-500 mt-2">$50,000</p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h2 className="text-lg font-semibold text-gray-800">Orders</h2>
+          <p className="text-3xl font-bold text-blue-500 mt-2">500</p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 
