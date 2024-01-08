@@ -9,104 +9,6 @@ export default function Footer() {
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <nav
                 className="col-span-2 md:col-span-4 lg:col-span-3"
-                aria-labelledby="footer-product-dark"
-              >
-                <h3
-                  className="mb-6 text-base font-medium "
-                  id="footer-product-dark"
-                >
-                  Product
-                </h3>
-                <ul>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Customers
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Why us?
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav
-                className="col-span-2 md:col-span-4 lg:col-span-3"
-                aria-labelledby="footer-docs-dark"
-              >
-                <h3
-                  className="mb-6 text-base font-medium "
-                  id="footer-docs-dark"
-                >
-                  Docs & help
-                </h3>
-                <ul>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Documentation
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Training
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      System status
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      FAQ
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Help Center
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-              <nav
-                className="col-span-2 md:col-span-4 lg:col-span-3"
                 aria-labelledby="footer-about-dark"
               >
                 <h3
@@ -309,7 +211,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      {/*    <!-- End Dark Theme Footer --> */}
     </>
   );
 }

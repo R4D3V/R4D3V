@@ -4,12 +4,12 @@
 function About() {
   return (
     <div className="container mx-auto p-5 mt-[88px]">
-      <div>
+      <div className="py-2">
         <h2 className="text-4xl font-bold mb-4 text-center uppercase font-serif underline shadow-xl rounded">
           About Us
         </h2>
-        <p>
-          We are a team of self motivated creators,and created our own path to
+        <p className=" font-bold mb-4 text-center uppercase shadow-xl rounded">
+          We are a team of self motivated creators and created our own path to
           this journey.
         </p>
       </div>

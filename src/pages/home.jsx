@@ -135,47 +135,6 @@ function Home() {
           </div>
         </div>
       </section>
-
-      <section className="container px-6 py-8 mx-auto lg:py-16">
-        <h3 className="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl ">
-          Browse Our Projects
-        </h3>
-
-        <div className="grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 lg:grid-cols-3 ">
-          <a
-            href="#"
-            className="transition-all duration-500 lg:col-span-2 hover:scale-105"
-          >
-            <p>image here</p>
-          </a>
-
-          <a href="#" className="transition-all duration-500 hover:scale-105">
-            <p>image here</p>
-          </a>
-
-          <a href="#" className="transition-all duration-500 hover:scale-105">
-            <p>image here</p>
-          </a>
-
-          <a
-            href="#"
-            className="transition-all duration-500 lg:col-span-2 hover:scale-105"
-          >
-            <p>image here</p>
-          </a>
-
-          <a
-            href="#"
-            className="transition-all duration-500 lg:col-span-2 hover:scale-105"
-          >
-            <p>image here</p>
-          </a>
-
-          <a href="#" className="transition-all duration-500 hover:scale-105">
-            <p>image here</p>
-          </a>
-        </div>
-      </section>
     </main>
   );
 }
