@@ -75,7 +75,7 @@ export default function NavbarActionButtonPreview() {
               <Link to="/">
                 <img
                   src={reactSvg}
-                  alt="Contact 1"
+                  alt="R4D3V"
                   className=" object-cover rounded-full"
                 />
               </Link>
