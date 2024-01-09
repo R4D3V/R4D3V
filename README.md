@@ -78,6 +78,3 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 <br/>
-
-<p>Node v20.10.0</p>
-<p>Npm 10.2.3</p>
