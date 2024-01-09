@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <>
-      <footer >        <div className="pt-16 pb-12 text-sm border-t ">
+      <footer className="w-full sm:mb-[80px]">        <div className="pt-16 pb-12 text-sm border-t ">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <nav

@@ -31,19 +31,19 @@ export default function Footer() {
     <div className="lg:hidden md:hidden flex flex-wrap fixed text-center p-4 bottom-0">
          
        <Link to='/'>
-          <img src={home} alt="R4D3V" />
+          <img src={home} alt="R" />
        </Link>
        <Link to='/'>
-          <img src={home} alt="R4D3V" />
+          <img src={home} alt="R" />
        </Link>
        <Link to='/'>
-          <img src={home} alt="R4D3V" />
+          <img src={home} alt="R" />
        </Link>
        <Link to='/'>
-          <img src={home} alt="R4D3V" />
+          <img src={home} alt="R" />
        </Link>
        <Link to='/'>
-          <img src={home} alt="R4D3V" />
+          <img src={home} alt="R" />
        </Link>
         
     </div>    
