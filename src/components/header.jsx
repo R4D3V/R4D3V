@@ -31,19 +31,19 @@ export default function Footer() {
     <div className="lg:hidden md:hidden flex flex-wrap fixed text-center p-4 bottom-0">
          
        <Link to='/'>
-          <img src={home} alt="R" />
+          <img src={home} alt="R" className="w-[60px] h-auto py-5 m-2"/>
        </Link>
-       <Link to='/'>
-          <img src={home} alt="R" />
+       <Link to='/about'>
+       <img src={home} alt="R" className="w-[60px] h-auto py-5 m-2"/>
        </Link>
-       <Link to='/'>
-          <img src={home} alt="R" />
+       <Link to='/contact'>
+       <img src={home} alt="R" className="w-[60px] h-auto py-5 m-2"/>
        </Link>
-       <Link to='/'>
-          <img src={home} alt="R" />
+       <Link to='/services'>
+       <img src={home} alt="R" className="w-[60px] h-auto py-5 m-2"/>
        </Link>
-       <Link to='/'>
-          <img src={home} alt="R" />
+       <Link to='/ipdates'>
+       <img src={home} alt="R" className="w-[60px] h-auto py-5 m-2"/>
        </Link>
         
     </div>    
