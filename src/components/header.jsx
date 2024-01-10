@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <>
       <nav className="">
-        <div className="lg:hidden md:hidden fixed bottom-0 left-0 w-full p-4">
+        <div className=" fixed bottom-0 left-0 w-full p-4">
           <div className="flex justify-center">
             <Link to="/" className="mx-5 ">
               <img src={home} alt="RS" className="w-10 h-10" />
