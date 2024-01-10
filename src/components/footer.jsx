@@ -3,7 +3,9 @@
 export default function Footer() {
   return (
     <>
-      <footer className="w-full sm:mb-[70px]">        <div className="pt-16 pb-12 text-sm border-t ">
+      <footer className="w-full sm:mb-[70px] sm:hidden">
+        {" "}
+        <div className="pt-16 pb-12 text-sm border-t ">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <nav
@@ -107,7 +109,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
         <div className="py-4 text-sm border-t ">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
