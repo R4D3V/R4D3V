@@ -1,7 +1,7 @@
 function Products() {
   return (
     <div className="flex flex-wrap justify-center p-2 m-2 mt-[88px] ">
-      <div className="relative overflow-hidden bg-white shadow-2xl rounded-xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 ">
+      <div className="relative overflow-hidden bg-white shadow-2xl w-full md:w-72 lg:w-96 mx-auto my-4 transition-transform transform hover:scale-105 text-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100">
         <div className="relative h-48 overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
