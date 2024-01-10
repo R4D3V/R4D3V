@@ -3,59 +3,51 @@
 export default function Footer() {
   return (
     <>
-      <footer className="w-full sm:mb-[70px] sm:hidden">
-        {" "}
+      <footer className="w-full ">
         <div className="pt-16 pb-12 text-sm border-t ">
           <div className="container px-6 mx-auto">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <nav
                 className="col-span-2 md:col-span-4 lg:col-span-3"
-                aria-labelledby="footer-about-dark"
-              >
+                aria-labelledby="footer-about-dark">
                 <h3
                   className="mb-6 text-base font-medium "
-                  id="footer-about-dark"
-                >
+                  id="footer-about-dark">
                   About us
                 </h3>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       About us
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Careers
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Leadership
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Blog
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Events
                     </a>
                   </li>
@@ -63,44 +55,38 @@ export default function Footer() {
               </nav>
               <nav
                 className="col-span-2 md:col-span-4 lg:col-span-3"
-                aria-labelledby="footer-get-in-touch-dark"
-              >
+                aria-labelledby="footer-get-in-touch-dark">
                 <h3
                   className="mb-6 text-base font-medium "
-                  id="footer-get-in-touch-dark"
-                >
+                  id="footer-get-in-touch-dark">
                   Get in touch
                 </h3>
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Contact
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Support
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Partners
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600">
                       Join research
                     </a>
                   </li>
@@ -117,8 +103,7 @@ export default function Footer() {
               </div>
               <nav
                 aria-labelledby="footer-social-links-dark"
-                className="col-span-2 text-right md:col-span-4 lg:col-span-6"
-              >
+                className="col-span-2 text-right md:col-span-4 lg:col-span-6">
                 <h2 className="sr-only" id="footer-social-links-dark">
                   Social Media Links
                 </h2>
@@ -126,8 +111,7 @@ export default function Footer() {
                   <li>
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -136,8 +120,7 @@ export default function Footer() {
                         width="16"
                         className="w-4 h-4 shrink-0"
                         role="graphics-symbol"
-                        aria-labelledby="title-tb01-dark desc-tb01-dark"
-                      >
+                        aria-labelledby="title-tb01-dark desc-tb01-dark">
                         <title id="title-tb01-dark">Icon title</title>
                         <desc id="desc-tb01-dark">
                           A more detailed description of the icon
@@ -154,8 +137,7 @@ export default function Footer() {
                   <li>
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -164,8 +146,7 @@ export default function Footer() {
                         width="16"
                         className="w-4 h-4 shrink-0"
                         role="graphics-symbol"
-                        aria-labelledby="title-tb02-dark desc-tb02-dark"
-                      >
+                        aria-labelledby="title-tb02-dark desc-tb02-dark">
                         <title id="title-tb02-dark">Icon title</title>
                         <desc id="desc-tb02-dark">
                           A more detailed description of the icon
@@ -180,8 +161,7 @@ export default function Footer() {
                   <li>
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500"
-                    >
+                      className="transition-colors duration-300 hover:text-emerald-500">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -190,8 +170,7 @@ export default function Footer() {
                         width="16"
                         className="w-4 h-4 shrink-0"
                         role="graphics-symbol"
-                        aria-labelledby="title-tb03-dark desc-tb03-dark"
-                      >
+                        aria-labelledby="title-tb03-dark desc-tb03-dark">
                         <title id="title-tb03-dark">Icon title</title>
                         <desc id="desc-tb03-dark">
                           A more detailed description of the icon
