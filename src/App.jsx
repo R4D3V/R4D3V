@@ -7,7 +7,6 @@ import Contact from "./pages/contact";
 import Services from "./pages/services";
 import Updates from "./pages/updates";
 import Products from "./pages/products";
-import Events from "./pages/events";
 
 const App = () => {
   return (
@@ -19,7 +18,6 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/updates" element={<Updates />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/events" element={<Events />} />
         <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
