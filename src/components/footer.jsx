@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <footer className="container lg:flex md:flex sm:flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-col">
+      <footer className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
    
         <Link to="/">
         <img src={favicon} alt="rd" className="relative w-auto h-10" />
