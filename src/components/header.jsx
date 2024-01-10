@@ -1,5 +1,5 @@
 // Date auto Copyright {new Date().getFullYear()}
-import favicon from "../assets/favicon-32x32.png";
+import favicon from "../assets/android-chrome-192x192.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -20,7 +20,11 @@ export default function Footer() {
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
               href="javascript:void(0)">
               <Link to="/">
-                <img src={favicon} alt="D" className=" object-cover" />
+                <img
+                  src={favicon}
+                  alt="D"
+                  className=" object-cover w-[80px] h-[80px]"
+                />
               </Link>
               {/* Brand */}
             </a>
