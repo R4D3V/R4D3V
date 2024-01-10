@@ -23,7 +23,7 @@ export default function Footer() {
                 <img
                   src={favicon}
                   alt="D"
-                  className=" object-cover w-[80px] h-[80px]"
+                  className=" object-cover w-[70px] h-[70px]"
                 />
               </Link>
               {/* Brand */}
