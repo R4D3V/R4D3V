@@ -4,13 +4,13 @@ import image from "../assets/android-chrome-512x512.png"
 
 function About() {
   return (
-    <div className="container mx-auto p-5 mt-[88px]">
+    <div className="container mx-auto p-5 mt-[88px] sm:mb-6">
       <div className="py-2 shadow-2xl bg-[#9caeed] mb-4 rounded pb-5">
         <h2 className="text-4xl font-bold  text-center uppercase font-serif underline">
           About Me.
         </h2>
         <p className=" font-bold  text-center uppercase ">
-          I am a self driven and self motivated to create my own path to
+          I am a self driven and motivated to create my own path to
           this journey.
         </p>
       </div>

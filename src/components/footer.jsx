@@ -31,7 +31,7 @@ export default function Footer() {
                 </svg>
             </a> */}
 
-            <a href="https://github.com/R4D3V" className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+            <a href="https://github.com/R4D3V" className="mx-2  transition-colors duration-300 dark:text-gray-300 hover:text-black " aria-label="Github">
                 <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
