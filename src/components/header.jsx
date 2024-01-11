@@ -99,7 +99,7 @@ export default function Footer() {
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-indigo-500 focus:text-indigo-600 focus:outline-none focus-visible:outline-none lg:px-8"
                   to="/about"
                   onClick={() => setIsToggleOpen(false)}>
-                  <span>ABOUT US</span>
+                  <span>ABOUT ME</span>
                 </Link>
               </li>
             </ul>
