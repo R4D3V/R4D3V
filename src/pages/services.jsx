@@ -13,7 +13,7 @@ function Services() {
             ></svg>
           </span>
 
-          <h1 className="text-2xl font-semibold text-gray-700 capitalize">
+          <h1 className="text-2xl font-semibold text-white capitalize">
           Web Development
           </h1>
 
@@ -33,7 +33,7 @@ function Services() {
             ></svg>
           </span>
 
-          <h1 className="text-2xl font-semibold text-gray-700 capitalize">
+          <h1 className="text-2xl font-semibold text-white capitalize">
           Responsive Design
           </h1>
 
@@ -52,7 +52,7 @@ function Services() {
             ></svg>
           </span>
 
-          <h1 className="text-2xl font-semibold text-gray-700 capitalize">
+          <h1 className="text-2xl font-semibold text-white capitalize">
           Microsoft Office
           </h1>
 
@@ -70,7 +70,7 @@ function Services() {
             ></svg>
           </span>
 
-          <h1 className="text-2xl font-semibold text-gray-700 capitalize">
+          <h1 className="text-2xl font-semibold text-white capitalize">
           Graphics Design
           </h1>
 
