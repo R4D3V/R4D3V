@@ -1,12 +1,12 @@
 // import reactSvg from "../assets/react.svg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
     <div className="container mx-auto p-5 mt-[88px]">
       <div className="py-2 shadow-xl mb-4 rounded">
         <h2 className="text-4xl font-bold  text-center uppercase font-serif underline">
-          About Us
+          About Me.
         </h2>
         <p className=" font-bold  text-center uppercase ">
           We are a team of self motivated creators and created our own path to
@@ -33,31 +33,17 @@ function About() {
             eu rhoncus lacus. Phasellus tristique mi nec eros tincidunt, ut
             vestibulum leo blandit.
           </p>
+          <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+          <Link
+                 
+            to="/services">
+                  SERVICES
+                </Link>
+          </button>
         </div>
       </div>
       <hr className="w-full h-6 shadow-black m-2" />
-      <div className="flex flex-col md:flex-row pb-5">
-        <div className="md:w-1/2 mb-4 md:mb-0">
-          <img
-            src="https://placekitten.com/800/600" // Replace with your image URL
-            alt="About Us"
-            className="w-full h-auto rounded-md"
-          />
-        </div>
-
-        <div className="md:w-1/2 md:pl-8">
-          <p className="text-lg mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
-            justo eu ex condimentum fermentum vel id eros. Vivamus vehicula
-            fringilla turpis, vel ornare tortor elementum vel.
-          </p>
-          <p className="text-lg">
-            Nullam vel nunc quis justo facilisis facilisis ac vel quam. Quisque
-            eu rhoncus lacus. Phasellus tristique mi nec eros tincidunt, ut
-            vestibulum leo blandit.
-          </p>
-        </div>
-      </div>
+   
 
       <div className="p-6 py-6 rounded-lg  md:p-8 shadow-2xl">
         <div className="container p-2 flex text-center">
