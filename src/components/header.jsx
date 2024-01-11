@@ -59,7 +59,7 @@ export default function Footer() {
                   ? "visible opacity-100 backdrop-blur-sm"
                   : "invisible opacity-0"
               }`}>
-              <li role="none" className="flex items-stretch">
+              {/* <li role="none" className="flex items-stretch">
                 <Link
                   role="menuitem"
                   aria-haspopup="false"
@@ -68,7 +68,7 @@ export default function Footer() {
                   onClick={() => setIsToggleOpen(false)}>
                   <span>HOT DEALS</span>
                 </Link>
-              </li>
+              </li> */}
               <li role="none" className="flex items-stretch">
                 <Link
                   role="menuitem"
