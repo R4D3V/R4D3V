@@ -41,7 +41,7 @@ function Services() {
             Research, user experience testing, mockups, and prototypes
           </p>
         </div>
-
+{/* 
         <div className="p-8 space-y-3 border-2 border-indigo-400 rounded-xl">
           <span className="inline-block text-indigo-500">
             <svg
@@ -78,9 +78,9 @@ function Services() {
           </h1>
 
           <p className="text-gray-500">enjoy our exclusive best offers</p>
-        </div>
+        </div> */}
       </div>
-
+{/* 
       <section className="container px-6 py-8 mx-auto lg:py-16">
         <h3 className="text-xl font-medium text-gray-800 md:text-2xl lg:text-3xl ">
           Browse Our Projects
@@ -120,7 +120,7 @@ function Services() {
             <p>image here</p>
           </a>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }
