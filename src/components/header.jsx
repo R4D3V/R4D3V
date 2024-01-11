@@ -3,7 +3,7 @@ import favicon from "../assets/android-chrome-192x192.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export default function Footer() {
+export default function Header() {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
   return (
     <>
@@ -106,8 +106,8 @@ export default function Footer() {
             <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
               <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-indigo-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-indigo-200 transition duration-300 hover:bg-indigo-600 hover:shadow-sm hover:shadow-indigo-200 focus:bg-indigo-700 focus:shadow-sm focus:shadow-indigo-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-indigo-300 disabled:bg-indigo-300 disabled:shadow-none">
                 <span>
-                  <Link to="/Updates" onClick={() => setIsToggleOpen(false)}>
-                    UPDATES
+                  <Link to="/Portfolio" onClick={() => setIsToggleOpen(false)}>
+                    PORTFOLIO
                   </Link>
                 </span>
               </button>

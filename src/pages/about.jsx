@@ -33,13 +33,22 @@ function About() {
             eu rhoncus lacus. Phasellus tristique mi nec eros tincidunt, ut
             vestibulum leo blandit.
           </p>
-          <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+         <div className="flex flex-wrap justify-center gap-2 m-3">
+         <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
           <Link
                  
             to="/services">
                   SERVICES
                 </Link>
           </button>
+          <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+          <Link
+                 
+            to="/portfolio">
+                  PORTFOLIO
+                </Link>
+          </button>
+         </div>
         </div>
       </div>
       <hr className="w-full h-6 shadow-black m-2" />
@@ -88,10 +97,15 @@ function About() {
               placeholder="Message"
             ></textarea>
           </div>
-
+          <div>
+            
           <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-            Send message
+          <a href="mailto:raymonjohns@gmail.com">Send message</a>
           </button>
+
+         
+  
+          </div>      
         </form>
       </div>
     </div>
