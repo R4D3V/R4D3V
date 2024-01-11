@@ -7,7 +7,7 @@ import phone from "../icons/phone.png"
 function Contact() {
 
   return (
-    <section className="  mt-[82px]">
+    <section className="mt-[82px]">
     <div className="container px-6 py-12 mx-auto">
         <div className="text-center py-5">
            
