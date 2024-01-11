@@ -1,15 +1,16 @@
 // import reactSvg from "../assets/react.svg";
 import { Link } from "react-router-dom";
+import image from "../assets/android-chrome-512x512.png"
 
 function About() {
   return (
     <div className="container mx-auto p-5 mt-[88px]">
-      <div className="py-2 shadow-xl mb-4 rounded">
+      <div className="py-2 shadow-2xl bg-[#9caeed] mb-4 rounded pb-5">
         <h2 className="text-4xl font-bold  text-center uppercase font-serif underline">
           About Me.
         </h2>
         <p className=" font-bold  text-center uppercase ">
-          We are a team of self motivated creators and created our own path to
+          I am a self driven and self motivated to create my own path to
           this journey.
         </p>
       </div>
@@ -17,21 +18,18 @@ function About() {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2 mb-4 md:mb-0">
           <img
-            src="https://placekitten.com/800/600" // Replace with your image URL
+            src={image}  // Replace with your image URL
             alt="About Us"
             className="w-full h-auto rounded-md"
           />
         </div>
-        <div className="md:w-1/2 md:pl-8">
-          <p className="text-lg mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et
-            justo eu ex condimentum fermentum vel id eros. Vivamus vehicula
-            fringilla turpis, vel ornare tortor elementum vel.
+        <div className="md:w-1/2 md:pl-8 lg:pt-9">
+          <p className="text-lg mb-4 lg:pt-9">
+          <b> I am a Senior Frontend  Developer.</b>dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
           </p>
           <p className="text-lg">
-            Nullam vel nunc quis justo facilisis facilisis ac vel quam. Quisque
-            eu rhoncus lacus. Phasellus tristique mi nec eros tincidunt, ut
-            vestibulum leo blandit.
+          Senior Frontend Developer with experience in designing, developing, I can conquer a website from nothing into existance, fully formed. I do not use magic or tricks. I specialize in manipulating the very fabric of the web using its raw materials of HTML, CSS and javascript.
+          . <u><b>I code User Interfaces from scratch there after give them life (functionality).</b></u>
           </p>
          <div className="flex flex-wrap justify-center gap-2 m-3">
          <button className="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
