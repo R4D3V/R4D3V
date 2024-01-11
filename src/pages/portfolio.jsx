@@ -18,7 +18,11 @@ function Portfolio() {
         <div className="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
             <div>
                 {/* <img src={iceage} className="relative z-10 object-cover w-full rounded-md h-96"  alt=""> */}
+                <a href="https://iceagegaming.vercel.app/" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                 <img src={iceage} alt="" className="relative z-10 object-cover w-full rounded-md h-96"/> 
+                    </a>
+
+               
                 <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                     <a href="https://iceagegaming.vercel.app/" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                         IceAge Gamining Bahrain
@@ -32,8 +36,10 @@ function Portfolio() {
                 </div>
             </div>
             <div>
+             
+              <a href="https://dumani-media.vercel.app/" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
               <img src={dumani} alt="" className="relative z-10 object-cover w-full rounded-md h-96"/> 
-
+                    </a>
                 <div className="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
                     <a href="https://dumani-media.vercel.app/" className="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
                         Dumani Media
