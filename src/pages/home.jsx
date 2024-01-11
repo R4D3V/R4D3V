@@ -12,11 +12,11 @@ function Home() {
   });
   return (
        <div className="flex flex-col md:flex-row mt-[82px] lg:mb-28 md:mb-28 ">
-        <div className="flex justify-center items-center  ">
+        <div className="flex justify-center items-center">
           <img
             src={image}  
             alt="r4d3v"
-            className="w-[70%] lg:h-[50%px] rounded-md"
+            className="w-[50%] rounded-md"
           />
         </div>
         <div className="p-[10%] lg:w-[50%] flex justify-center pb-6 relative flex-wrap">
