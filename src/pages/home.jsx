@@ -16,10 +16,10 @@ function Home() {
           <img
             src={image}  
             alt="r4d3v"
-            className="w-[50%] h-[30%px] rounded-md"
+            className="w-[70%] lg:h-[50%px] rounded-md"
           />
         </div>
-        <div className="p-[10%] flex justify-center pb-6 relative flex-wrap">
+        <div className="p-[10%] lg:w-[50%] flex justify-center pb-6 relative flex-wrap">
         <h1>Hi there you made it up to here!</h1>
         <p className="mx-1 font-semibold text-2xl text-center">
           I am Frontend Dev, Freelancer,Ui/Ux designer!
