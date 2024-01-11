@@ -19,7 +19,8 @@ function Contact() {
         <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center justify-center text-center">
 
-            <img src={mail} alt="r4" className="w-[230px] h-[230px] p-3 rounded-full bg-black"/>
+            
+            <a href="mailto:raymonjohns@gmail.com"><img src={mail} alt="r4" className="w-[250px] h-[250px] p-3 rounded-full bg-black"/></a>
 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
                 <p className="mt-2  ">You can contact me via mail am here to help.</p>
@@ -28,7 +29,8 @@ function Contact() {
 
             <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                  <img src={what} alt="r4" className="w-[230px] h-[230px]"/>
+                  
+                  <a href="https://wa.me/qr/MBVANZFXJGPSH1"><img src={what} alt="r4" className="w-[230px] h-[230px]"/></a>
                 </span>
                 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Whatsapp</h2>
@@ -40,16 +42,18 @@ function Contact() {
 
             <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                <img src={phone} alt="r4" className="w-[230px] h-[230px]"/>
+                
+                <a href="tel:+256 751621506"><img src={phone} alt="r4" className="w-[230px] h-[230px]"/></a>
                 </span>
                 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                 <p className="mt-2  ">Mon-Fri from 8am to 5pm.</p>
-                <p className="mt-2 text-blue-500 dark:text-blue-400"><a href="tel:+256 751621506">+256 751621506</a></p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400"><a href="tel:+256 751621506">Dail me</a></p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                <img src={insta} alt="r4" className="w-[230px] h-[230px]" />
+               
+                <a href="https://www.instagram.com/r4d3v/"> <img src={insta} alt="r4" className="w-[230px] h-[230px]" /></a>
                 </span>
                 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Instagram Page</h2>
@@ -58,7 +62,8 @@ function Contact() {
             </div>
             <div className="flex flex-col items-center justify-center text-center">
                 <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                <img src={tele} alt="r4" className="w-[230px] h-[230px]"/>
+                
+                <a href="https://www.t.me/r4d3v1"><img src={tele} alt="r4" className="w-[230px] h-[230px]"/></a>
                 </span>
                 
                 <h2 className="mt-4 text-lg font-medium text-gray-800 ">Telegram Support</h2>
