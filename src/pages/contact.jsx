@@ -1,44 +1,73 @@
-function Contact() {
-  return (
-    <main className="container sm:mt-[83px]">
+import mail from "../icons/mail.png"
+import what from "../icons/what.png"
+import insta from "../icons/insta.png"
+import tele from "../icons/tele.png"
+import phone from "../icons/phone.png"
 
-      <div className="relative flex flex-col text-gray-700 shadow-md bg-clip-border rounded-xl w-96 sm:flex sm:justify-center  mt-[88px]">
-        <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-80">
-          <img
-            src="https://docs.material-tailwind.com/img/team-3.jpg"
-            alt="profile-picture"
-          />
+function Contact() {
+
+  return (
+    <section className="  mt-[82px]">
+    <div className="container px-6 py-12 mx-auto">
+        <div className="text-center py-5">
+           
+            <h1 className="mt-2 bold text-2xl font-semibold text-gray-800 md:text-3xl ">Get in touch with me.</h1>
+
+            <p className="mt-3  ">Am always here to chat. And respond to you.</p>
         </div>
-        <div className="p-6 text-center">
-          <h4 className="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-            Natalie Paisley
-          </h4>
-          <p className="block font-sans text-base antialiased font-medium leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400">
-            CEO / Co-Founder
-          </p>
+
+        <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex flex-col items-center justify-center text-center">
+
+            <img src={mail} alt="r4" className="w-[230px] h-[230px] p-3 rounded-full bg-black"/>
+
+                <h2 className="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
+                <p className="mt-2  ">You can contact me via mail am here to help.</p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400"> <a href="mailto:raymonjohns@gmail.com">raymonjohns@gmail.com</a> </p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center text-center">
+                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                  <img src={what} alt="r4" className="w-[230px] h-[230px]"/>
+                </span>
+                
+                <h2 className="mt-4 text-lg font-medium text-gray-800 ">Whatsapp</h2>
+                <p className="mt-2  ">You can get through us on Whatsapp.</p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400">
+                  <a href="https://wa.me/qr/MBVANZFXJGPSH1">Whatsapp</a>
+                </p>
+            </div>
+
+            <div className="flex flex-col items-center justify-center text-center">
+                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <img src={phone} alt="r4" className="w-[230px] h-[230px]"/>
+                </span>
+                
+                <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
+                <p className="mt-2  ">Mon-Fri from 8am to 5pm.</p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400"><a href="tel:+256 751621506">+256 751621506</a></p>
+            </div>
+            <div className="flex flex-col items-center justify-center text-center">
+                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <img src={insta} alt="r4" className="w-[230px] h-[230px]" />
+                </span>
+                
+                <h2 className="mt-4 text-lg font-medium text-gray-800 ">Instagram Page</h2>
+                <p className="mt-2  ">You can also get to me through instagram</p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400"><a href="https://www.instagram.com/r4d3v/">Instagram</a></p>
+            </div>
+            <div className="flex flex-col items-center justify-center text-center">
+                <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <img src={tele} alt="r4" className="w-[230px] h-[230px]"/>
+                </span>
+                
+                <h2 className="mt-4 text-lg font-medium text-gray-800 ">Telegram Support</h2>
+                <p className="mt-2  ">You can also get to me through Telegram</p>
+                <p className="mt-2 text-blue-500 dark:text-blue-400"><a href="https://www.t.me/r4d3v1">Telegram</a></p>
+            </div>
         </div>
-        <div className="flex justify-center p-6 pt-2 gap-7">
-          <a
-            href="#facebook"
-            className="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-600 to-blue-400"
-          >
-            <i className="fab fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a
-            href="#twitter"
-            className="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-light-blue-600 to-light-blue-400"
-          >
-            <i className="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a
-            href="#instagram"
-            className="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-purple-600 to-purple-400"
-          >
-            <i className="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-    </main>
+    </div>
+</section>
   );
 }
 

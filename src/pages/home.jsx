@@ -10,7 +10,7 @@ function Home() {
     deleteSpeed: 100,
   });
   return (
-    <main className="container flex lg:h-[70vh] sm:flex-row items-center justify-between p-6 mx-auto mt-[83px]">
+    <main className="container flex h-[70vh] items-center justify-between p-6 mx-auto mt-[83px]">
      <div className="relative w-[50%]">
      <h1>Hi there you made it up to here!</h1>
         <p className="mx-1 font-semibold">

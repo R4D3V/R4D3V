@@ -80,7 +80,7 @@ export default function Footer() {
                 </Link>
               </li>
 
-              {/* <li role="none" className="flex items-stretch">
+              <li role="none" className="flex items-stretch">
                 <Link
                   role="menuitem"
                   aria-haspopup="false"
@@ -90,7 +90,7 @@ export default function Footer() {
                 >
                   <span>CONTACT</span>
                 </Link>
-              </li> */}
+              </li>
 
               <li role="none" className="flex items-stretch">
                 <Link
