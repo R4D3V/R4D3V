@@ -9,7 +9,7 @@ function About() {
         <h2 className="text-4xl font-bold  text-center uppercase font-serif underline">
           About Me.
         </h2>
-        <p className=" font-bold  text-center uppercase ">
+        <p className=" font-bold  text-center uppercase p-4">
           I am  self driven and motivated to creating my own path to
           this journey.
         </p>
