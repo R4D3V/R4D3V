@@ -10,7 +10,7 @@ function About() {
           About Me.
         </h2>
         <p className=" font-bold  text-center uppercase ">
-          I am a self driven and motivated to create my own path to
+          I am  self driven and motivated to create my own path to
           this journey.
         </p>
       </div>
