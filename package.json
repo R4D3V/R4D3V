@@ -1,7 +1,7 @@
 {
   "name": "r43v",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,5 +28,20 @@
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8",
     "vite-plugin-pwa": "^0.17.4"
-  }
+  },
+  "description": "<a href=\"https://komarev.com/ghpvc/?username=raymond\">\r   <img align=\"right\" src=\"https://komarev.com/ghpvc/?username=raymond&label=Visitors&color=0e75b6&style=flat\" alt=\"Profile visitor\" />\r </a>",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4D3V/R4D3V.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "r4d3v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R4D3V/R4D3V/issues"
+  },
+  "homepage": "https://github.com/R4D3V/R4D3V#readme"
 }

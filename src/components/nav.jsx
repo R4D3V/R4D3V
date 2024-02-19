@@ -2,30 +2,27 @@ import { Link } from "react-router-dom";
 import instagram from "../icons/Instagram.png";
 import telegram from "../icons/telegram.png";
 import github from "../icons/github.png";
-import up from "../icons/up.png";
-// Date auto Copyright {new Date().getFullYear()}
 
-export default function Footer() {
+const Nav = () => {
   return (
-    <>
-      <footer className="flex gap-8 flex-wrap content-center justify-center p-3 ">
-        <p className="text-sm ">
-          © <i>Copyright</i> {new Date().getFullYear()}{" "}
-          <Link to="/">R4D3V</Link>{" "}
-        </p>
-        <div className="flex justify-around gap-12 ">
+    <div className="container mx-auto w-full p-2">
+      <div
+        className="rounded-lg bg-[rgba(255,255,255,0.05)] border-1 p-4 text-center shadow-lg shadow-gray-950 backdrop-blur 
+      flex justify-around gap-3 "
+      >
+        <div className=" font-bold">
+          <h1 className="text-xl">
+            <Link to="/">R4D3V</Link>
+          </h1>
+        </div>
+        <div className="flex items-center justify-around gap-8">
           <a
             href="http://github.com/r4d3v"
             target="_blank"
             rel="noopener noreferrer"
+            className="bg-white rounded-full"
           >
-            <img
-              src={github}
-              alt=""
-              width={20}
-              height={20}
-              className="bg-white rounded-full"
-            />
+            <img src={github} alt="" width={20} height={20} />
           </a>
           <a
             href="http://t.me/patrolfx"
@@ -41,11 +38,10 @@ export default function Footer() {
           >
             <img src={instagram} alt="" width={20} height={20} />
           </a>
-          <a href="#" className="bg-gray-300 rounded-md">
-            <img src={up} alt="" width={20} height={20} />
-          </a>
         </div>
-      </footer>
-    </>
+      </div>
+    </div>
   );
-}
+};
+
+export default Nav;
