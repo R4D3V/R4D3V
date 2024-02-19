@@ -65,7 +65,7 @@ function contact() {
               />
             </svg>
           </span>
-          <h2 className="mt-4 text-base font-medium  ">Work</h2>
+          <h2 className="mt-4 text-base font-medium  ">Office</h2>
           <p className="mt-2 text-sm  ">Come say hello.</p>
           <p className="mt-2 text-sm text-black font-bold">
             <a
