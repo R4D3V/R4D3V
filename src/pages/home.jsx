@@ -5,20 +5,23 @@ import css from "../img/tech/css.png";
 import js from "../img/tech/js.png";
 import react from "../img/tech/react.png";
 import tailwind from "../img/tech/tailwind.png";
-import mern from "../img/tech/mern.png";
+import stack from "../img/tech/stack.png";
 
 function Home() {
   return (
     <div className="container mx-auto w-full">
       <div className="p-2 border-gray-500 place-content-center grid gap-4 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
-        <div className="lg:h-[80vh] flex items-center justify-center">
+        <div className=" flex items-center justify-center">
           <img
             src={logo}
             alt=""
-            className="rounded-2xl bg-[rgba(255,255,255,0.05)] border-2 shadow-lg shadow-gray-950 backdrop-blur "
+            width={400}
+            height={400}
+            className="hover:scale-105 transition duration-500"
+            // className="rounded-2xl bg-[rgba(255,255,255,0.05)] border-2 shadow-lg shadow-gray-950 backdrop-blur "
           />
         </div>
-        <div className="lg:pt-16 lg:pl-8 text-center rounded-lg bg-[rgba(255,255,255,0.05)] border p-4 shadow-lg shadow-gray-950 backdrop-blur">
+        <div className=" lg:pl-8 text-center rounded-lg bg-[rgba(255,255,255,0.05)] border p-4 shadow-lg shadow-gray-950 backdrop-blur">
           <h1 className="font-bold">I'm RAYMOND</h1>
           <p className="py-3 text-2xl">Nice to meet you!</p>
           <p className="py-3">
@@ -33,15 +36,6 @@ function Home() {
               <Link to="/portfolio">portfolio</Link>
             </button>
           </div>
-        </div>
-      </div>
-
-      <div className="p-2 ">
-        <div
-          className="flex flex-wrap justify-center my-8 sm:my-12 p-4
-       bg-gray-600 text-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
-       shadow-gray-800 shadow-xl"
-        >
           <h1 className="font-bold uppercase">About me</h1>
           <p className="first-letter:text-5xl ">
             i am a Frontend Developer. <hr className="" />{" "}
@@ -59,10 +53,19 @@ function Home() {
         </div>
       </div>
 
+      <div className="p-3">
+        <div
+          className="flex flex-wrap justify-center  
+       bg-gray-600 text-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+       shadow-gray-800 shadow-xl"
+        >
+          <h1 className="font-bold uppercase underline text-black text-center">
+            tech stack
+          </h1>
+        </div>
+      </div>
+
       <div className="px-8 py-2">
-        <h1 className="font-bold py-4 uppercase underline text-black text-center">
-          tech stack
-        </h1>
         <div className="mx-auto ">
           <div className="flex flex-wrap justify-around gap-4 ]py-4 xl:grid xl:grid-cols-3 xl:p-8 lg:grid lg:grid-cols-3 lg:p-8">
             <div className="rounded-lg bg-[rgba(255,255,255,0.05)] border-2 p-4 text-center shadow-lg shadow-gray-950 backdrop-blur justify-center">
@@ -106,7 +109,7 @@ function Home() {
             </div>
             <div className="rounded-lg bg-[rgba(255,255,255,0.05)] border-2 text-white p-4 text-center shadow-lg shadow-gray-950 backdrop-blur">
               <div className="flex justify-center">
-                <img src={mern} alt="" className="hover:animate-pulse pt-8" />
+                <img src={stack} alt="" className="hover:animate-pulse pt-8" />
               </div>
               <h1 className="py-2 font-bold uppercase">MERN</h1>
               <p>2-Years</p>
