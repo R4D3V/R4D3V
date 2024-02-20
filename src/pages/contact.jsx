@@ -184,7 +184,7 @@ function contact() {
           loop
           width={350}
           height={250}
-          className="rounded-lg"
+          className="rounded-lg hover:scale-110 transition duration-500"
         ></video>
       </div>
     </div>
