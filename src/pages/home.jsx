@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
+import logo from "../img/r4d3v.png";
 import html from "../img/tech/html.png";
 import css from "../img/tech/css.png";
 import js from "../img/tech/js.png";
@@ -15,9 +15,7 @@ function Home() {
           <img
             src={logo}
             alt=""
-            width={300}
-            height={300}
-            className="rounded-full bg-[rgba(255,255,255,0.05)] border-2 p-2 shadow-lg shadow-gray-950 backdrop-blur "
+            className="rounded-2xl bg-[rgba(255,255,255,0.05)] border-2 shadow-lg shadow-gray-950 backdrop-blur "
           />
         </div>
         <div className="lg:pt-16 lg:pl-8 text-center rounded-lg bg-[rgba(255,255,255,0.05)] border p-4 shadow-lg shadow-gray-950 backdrop-blur">
