@@ -46,7 +46,7 @@ function faq() {
                 REED-STORES
               </h1>
               <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Online shop & Gadgets Stor
+                Online shop & Gadgets Store
               </p>
               <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
                 <a
@@ -94,7 +94,7 @@ function faq() {
               </p>
               <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
                 <a
-                  href="http://reedmedia.vercel.app"
+                 href="http://reedstores.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
