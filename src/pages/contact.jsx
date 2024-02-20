@@ -2,6 +2,7 @@ import whatsapp from "../icons/whatsapp.png";
 import instagram from "../icons/Instagram.png";
 import telegram from "../icons/telegram.png";
 import { Link } from "react-router-dom";
+import video from "../img/LiQWYD-Call me.mp4";
 function contact() {
   return (
     <div className="container px-6 py-8 mx-auto w-full ">
@@ -175,6 +176,16 @@ function contact() {
         <button className="py-2 hover:animate-pulse backdrop-blur border-2 uppercase bg-[rgba(255,255,255,0.07)] p-2 rounded-2xl text-center w-fit">
           <Link to="/portfolio">My work</Link>
         </button>
+      </div>
+      <div className="flex justify-center items-center flex-wrap my-3">
+        <video
+          src={video}
+          controls
+          loop
+          width={350}
+          height={250}
+          className="rounded-lg"
+        ></video>
       </div>
     </div>
   );
