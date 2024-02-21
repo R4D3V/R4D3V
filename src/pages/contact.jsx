@@ -23,7 +23,7 @@ function contact() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-12  h-12"
               >
                 <path
                   stroke-linecap="round"
@@ -36,7 +36,7 @@ function contact() {
 
           <h2 className="mt-4 text-base font-medium  ">Email</h2>
           <p className="mt-2 text-sm  ">Reach out to me am ready to help.</p>
-          <p className="mt-2 text-sm text-black font-bold">
+          <p className="mt-2 text-sm text-black font-bold text-center place-content-center items-center flex px-1">
             <a href="mailto:raymonjohns@gmail.com">raymonjohns@gmail.com</a>
           </p>
         </div>
@@ -52,7 +52,7 @@ function contact() {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-5 h-5"
+              className="w-12  h-12"
             >
               <path
                 stroke-linecap="round"
@@ -91,7 +91,7 @@ function contact() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="w-5 h-5"
+                className="w-12  h-12"
               >
                 <path
                   stroke-linecap="round"
@@ -113,17 +113,17 @@ function contact() {
           className="bg-gray-600 text-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
        shadow-gray-800 shadow-xl p-6"
         >
-          <span className=" inline-block  rounded-full  ">
+          <span className=" inline-block  rounded-full  pt-3 ">
             <a href="https://wa.me/message/EMSUIOYUA5SDI1">
               <img
                 src={whatsapp}
                 alt=""
-                className="w-12 p-1 h-12 animate-bounce  flex-shrink-0"
+                className="w-12  h-12 animate-bounce  flex-shrink-0"
               />
             </a>
           </span>
 
-          <h2 className="mt-3 text-base font-medium  ">Whatsapp</h2>
+          <h2 className="mt-3 text-base font-medium pt-6 ">Whatsapp</h2>
           <p className="mt-2 text-sm  ">Mon-Fri from 8am to 5pm.</p>
           <p className="mt-2 text-sm text-black font-bold">
             <a href="https://wa.me/message/EMSUIOYUA5SDI1"> +973 37559735 </a>
@@ -139,12 +139,12 @@ function contact() {
               <img
                 src={instagram}
                 alt=""
-                className="w-12 p-1 h-12 animate-bounce  flex-shrink-0"
+                className="w-12  h-14 animate-bounce pt-3 flex-shrink-0"
               />
             </a>
           </span>
 
-          <h2 className="mt-3 text-base font-medium  ">Instagram</h2>
+          <h2 className="mt-3 text-base font-medium pt-6 ">Instagram</h2>
           <p className="mt-2 text-sm  ">Mon-Fri from 8am to 5pm.</p>
           <p className="mt-2 text-sm text-black font-bold">
             <a href="https://www.instagram.com/r4d3v/">R4D3V</a>
@@ -160,12 +160,12 @@ function contact() {
               <img
                 src={telegram}
                 alt=""
-                className="w-12 p-1 h-12 animate-bounce  flex-shrink-0"
+                className="w-12  h-14 animate-bounce pt-2 flex-shrink-0"
               />
             </a>
           </span>
 
-          <h2 className="mt-3 text-base font-medium  ">Telegram</h2>
+          <h2 className="mt-3 text-base font-medium  pt-6">Telegram</h2>
           <p className="mt-2 text-sm  ">Mon-Fri from 8am to 5pm.</p>
           <p className="mt-2 text-sm text-black font-bold">
             <a href="https://t.me/patrolfx">PATROLFX</a>
