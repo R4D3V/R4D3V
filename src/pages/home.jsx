@@ -17,6 +17,7 @@ function Home() {
               src="https://api.daily.dev/devcards/v2/78hBt4g51mnyl6Rv5PviX.png?type=default&r=jk2"
               width="356"
               alt="R4D3V's Dev Card"
+              className="hover:scale-110 transition duration-500"
             />
           </a>
         </div>
