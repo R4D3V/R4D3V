@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../index.css";
+
 function faq() {
   return (
     <div className="container mx-auto w-full px-3">
@@ -94,7 +95,7 @@ function faq() {
               </p>
               <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
                 <a
-                 href="http://t.me/patrolfx"
+                  href="http://t.me/patrolfx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -106,8 +107,11 @@ function faq() {
         </div>
       </div>
 
-      <div className="flex pt-4 justify-center animate-bounce">
-        <button className="py-2 hover:animate-pulse backdrop-blur border-2 uppercase bg-[rgba(255,255,255,0.07)] p-2 rounded-2xl text-center w-fit">
+      <div
+        id="button"
+        className="flex justify-center my-4 p-24 text-black font-extrabold rounded-lg"
+      >
+        <button className="py-2 animate-bounce backdrop-blur border-2 uppercase bg-[rgba(255,255,255,0.07)] p-2 rounded-2xl text-center w-fit">
           <Link to="/contact">Lets build something!</Link>
         </button>
       </div>

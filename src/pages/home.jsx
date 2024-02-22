@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../img/r4d3v.png";
+// import logo from "../img/r4d3v.png";
 import html from "../img/tech/html.png";
 import css from "../img/tech/css.png";
 import js from "../img/tech/js.png";
@@ -12,14 +12,13 @@ function Home() {
     <div className="container mx-auto w-full">
       <div className="p-2 border-gray-500 place-content-center grid gap-4 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className=" flex items-center justify-center">
-          <img
-            src={logo}
-            alt=""
-            width={400}
-            height={400}
-            className="hover:scale-105 transition duration-500"
-            // className="rounded-2xl bg-[rgba(255,255,255,0.05)] border-2 shadow-lg shadow-gray-950 backdrop-blur "
-          />
+          <a href="https://app.daily.dev/r4d3v">
+            <img
+              src="https://api.daily.dev/devcards/v2/78hBt4g51mnyl6Rv5PviX.png?type=default&r=jk2"
+              width="356"
+              alt="R4D3V's Dev Card"
+            />
+          </a>
         </div>
         <div className=" lg:pl-8 text-center rounded-lg bg-[rgba(255,255,255,0.05)] border p-4 shadow-lg shadow-gray-950 backdrop-blur">
           <h1 className="font-bold">I'm RAYMOND</h1>
