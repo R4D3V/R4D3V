@@ -1,6 +1,4 @@
-<a href="https://app.daily.dev/r4d3v"><img align="center" src="https://api.daily.dev/devcards/v2/78hBt4g51mnyl6Rv5PviX.png?type=default&r=3wb" width="356" alt="R4D3V's Dev Card" /></a>
-
-
+<a href="https://app.daily.dev/r4d3v"><img src="https://api.daily.dev/devcards/v2/78hBt4g51mnyl6Rv5PviX.png?type=wide&r=jk2" width="652" alt="R4D3V's Dev Card"/></a>
 
 <a href="https://komarev.com/ghpvc/?username=raymond">
   <img align="right" src="https://komarev.com/ghpvc/?username=raymond&label=Visitors&color=0e75b6&style=flat" alt="Profile visitor" />
