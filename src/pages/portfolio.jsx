@@ -66,14 +66,14 @@ function faq() {
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <h1 className="mt-4 text-xl font-semibold text-white capitalize">
-                R4D3V
+                SKILLS PHONE SERVICE CENTRE
               </h1>
               <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Branding & website design agency
+                Repairing service for mobile devices and computers
               </p>
               <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
                 <a
-                  href="http://t.me/patrolfx"
+                  href="http://skillphoneservices.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
