@@ -73,7 +73,7 @@ function faq() {
               </p>
               <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
                 <a
-                  href="http://skillphoneservices.vercel.app/"
+                  href="http://skillsphoneservices.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
