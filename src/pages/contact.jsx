@@ -74,15 +74,15 @@ function Contact() {
           />
         </svg>
       ),
-      link: "tel:+973 37559735",
-      value: "+973 37559735",
+      link: "tel:+256 751621506",
+      value: "+256 751621506",
     },
     {
       title: "WhatsApp",
       description: "Mon-Fri from 8am to 5pm.",
       icon: <img src={whatsapp} alt="WhatsApp" className="w-12 h-12" />,
       link: "https://wa.me/message/EMSUIOYUA5SDI1",
-      value: "+973 37559735",
+      value: "+256 751621506",
     },
     {
       title: "Instagram",
