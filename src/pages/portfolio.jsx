@@ -1,117 +1,81 @@
 import { Link } from "react-router-dom";
 import "../index.css";
 
-function faq() {
+function Portfolio() {
+  const projects = [
+    {
+      id: "p1",
+      title: "REED-MEDIA",
+      description: "Branding & website design agency",
+      link: "http://reedmedia.vercel.app",
+    },
+    {
+      id: "p2",
+      title: "REED-STORES",
+      description: "Online shop & Gadgets Store",
+      link: "http://reedstores.vercel.app/",
+    },
+    {
+      id: "p3",
+      title: "SKILLS PHONE SERVICE CENTRE",
+      description: "Repairing service for mobile devices and computers",
+      link: "http://skillsphoneservices.vercel.app/",
+    },
+    {
+      id: "p4",
+      title: "R4D3V",
+      description: "Branding & website design agency",
+      link: "http://t.me/patrolfx",
+    },
+  ];
+
   return (
-    <div className="container mx-auto w-full px-3">
-      <div className="container px-3 py-4 rounded-lg bg-[rgba(255,255,255,0.05)] border-2 shadow-lg shadow-gray-950 backdrop-blur">
-        <h1 className="text-2xl text-black font-semibold text-center underline uppercase lg:text-3xl ">
+    <div className="container mx-auto w-full px-4">
+      <div className="glass-card mt-4">
+        <h1 className="text-4xl font-bold text-gradient text-center uppercase mb-4">
           Portfolio
         </h1>
 
-        <p className="mt-4 text-center  ">
-          I hereby present to you my recent projects. <hr />
-          You can have a{" "}
-          <span className="text-black font-extrabold">Look through.</span>
+        <p className="text-center text-lg mb-4">
+          I hereby present to you my recent projects.
+          <br />
+          <span className="text-white font-semibold">
+            Feel free to look through.
+          </span>
         </p>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-          <div
-            id="p1"
-            className="border overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-          >
-            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <h1 className="mt-4 text-xl font-semibold text-white capitalize">
-                REED-MEDIA
-              </h1>
-              <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Branding & website design agency
-              </p>
-              <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
-                <a
-                  href="http://reedmedia.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  check me out
-                </a>
-              </button>
+        <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 xl:grid-cols-2">
+          {projects.map((project) => (
+            <div
+              key={project.id}
+              id={project.id}
+              className="glass-card group relative h-96 overflow-hidden bg-cover rounded-2xl cursor-pointer"
+            >
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500" />
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 opacity-0 group-hover:opacity-100 transition-all duration-500 relative z-10">
+                <h2 className="text-2xl font-bold text-white capitalize mb-2">
+                  {project.title}
+                </h2>
+                <p className="text-lg text-blue-200 uppercase font-light mb-6">
+                  {project.description}
+                </p>
+                <button className="glass-button hover:scale-105 inline-block">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Check me out
+                  </a>
+                </button>
+              </div>
             </div>
-          </div>
-          <div
-            id="p2"
-            className="border overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-          >
-            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <h1 className="mt-4 text-xl font-semibold text-white capitalize">
-                REED-STORES
-              </h1>
-              <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Online shop & Gadgets Store
-              </p>
-              <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
-                <a
-                  href="http://reedstores.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  check me out
-                </a>
-              </button>
-            </div>
-          </div>
-          <div
-            id="p3"
-            className="border overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-          >
-            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <h1 className="mt-4 text-xl font-semibold text-white capitalize">
-                SKILLS PHONE SERVICE CENTRE
-              </h1>
-              <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Repairing service for mobile devices and computers
-              </p>
-              <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
-                <a
-                  href="http://skillsphoneservices.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  check me out
-                </a>
-              </button>
-            </div>
-          </div>
-          <div
-            id="p4"
-            className="border overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
-          >
-            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <h1 className="mt-4 text-xl font-semibold text-white capitalize">
-                R4D3V
-              </h1>
-              <p className="py-4 mt-2 text-lg tracking-wider text-blue-400 uppercase ">
-                Branding & website design agency
-              </p>
-              <button className="w-fill  bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
-                <a
-                  href="http://t.me/patrolfx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  check me out
-                </a>
-              </button>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
-      <div
-        id="button"
-        className="flex justify-center my-4 p-24 text-black font-extrabold rounded-lg"
-      >
-        <button className="py-2 animate-bounce backdrop-blur border-2 uppercase bg-[rgba(255,255,255,0.07)] p-2 rounded-2xl text-center w-fit">
+      <div className="flex justify-center my-12">
+        <button className="glass-button text-lg px-8 py-4 hover:scale-110 animate-pulse">
           <Link to="/contact">Lets build something!</Link>
         </button>
       </div>
@@ -119,4 +83,4 @@ function faq() {
   );
 }
 
-export default faq;
+export default Portfolio;
