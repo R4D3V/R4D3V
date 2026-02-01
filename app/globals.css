@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0A0E27;
+  color: #ffffff;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0E27;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6C5CE7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5B4BCF;
+}
+
+/* Background Grid Effect */
+.grid-background {
+  background-image: 
+    linear-gradient(rgba(108, 92, 231, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(108, 92, 231, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #6C5CE7 0%, #00D9FF 50%, #FF6B9D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow Effect */
+.glow {
+  box-shadow: 0 0 30px rgba(108, 92, 231, 0.4);
+}
+
+/* Card Hover Effect */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(108, 92, 231, 0.3);
+}
+
+/* Noise Texture Overlay */
+.noise-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Stagger Animation Delays */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+
+/* Custom Button Styles */
+.btn-primary {
+  @apply bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-accent/50;
+}
+
+.btn-secondary {
+  @apply border-2 border-accent text-accent hover:bg-accent hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105;
+}
+
+/* Section Spacing */
+.section-padding {
+  @apply py-20 md:py-32;
+}
+
+/* Page Container */
+.page-container {
+  @apply min-h-screen pt-20;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Blur Orbs Background */
+.blur-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  pointer-events: none;
+}
